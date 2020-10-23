@@ -5,8 +5,8 @@ var config = {
     },
     weather: {          //在天气显示这部分，选用的是和风天气API，所以需要去官网申请一个“钥匙”，并且得到城市对应的城市ID
         params: {
-            cityid: "CN101180101",
-            key: "4aa84e1457674356b79e55f4cbc4867e"
+            cityid: "CN101090201",
+            key: "7edb35ea9c073da2200256484d25ea52"
         }
     },
     tem_hum: {         //这一部分是原作者关于温湿度的相关配置
@@ -19,8 +19,8 @@ var config = {
         interval: 30000,
         fadeInterval: 4000,
         morning: [
-            '早上好，帅哥',
-            '享受新的一天吧！',
+            '爷，今天又离称霸一方进了一步',
+            '尽情享受新的一天吧！',
            // 'How was your sleep?'
         ],
         afternoon: [
@@ -39,6 +39,6 @@ var config = {
         url: ""
     },
     news: {         //新闻订阅的相关设置，在网上找到RSS新闻源，复制到下列语句里就行了
-        feed: 'http://www.news.baidu.com/n?cmd=1&class=internews&tn=rss&sub=0'
+        feed: 'http://www.zhihu.com/rss'
     }
 }
